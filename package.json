@@ -1,0 +1,29 @@
+{
+  "name": "aemet-api-testing",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@playwright/test": "^1.49.0",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "follow-redirects": "^1.15.9",
+    "googleapis": "^144.0.0",
+    "imap": "^0.8.19",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.2",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.49.0",
+    "playwright-core": "^1.49.0",
+    "playwright-recaptcha-solver": "^1.0.0",
+    "simple-oauth2": "^5.1.0"
+  },
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
