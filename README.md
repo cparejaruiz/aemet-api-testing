@@ -121,3 +121,7 @@ npx playwright test tests/<test-file-name>.test.js
 - **Error Handling**: Ensure proper exception handling in your tests to facilitate debugging.
 - **Security**: Never share sensitive credentials. Use the `.gitignore` file to prevent files like `.env`, `token.json`, and `credentials.json` from being versioned.
 - **Consistent Use of ES Modules**: Maintain consistency in the use of ES modules throughout the project to avoid import/export conflicts.
+
+## Next Steps
+
+The next step is to implement Cucumber based on the test cases written in Gherkin syntax. This will allow for behavior-driven development (BDD) by connecting the Gherkin scenarios defined in `auto-test.feature` with executable test code.
